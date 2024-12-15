@@ -1,0 +1,64 @@
+.container {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 1200px;
+}
+
+.navbar {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.navbar a.active {
+  color: #1890ff;
+  border-bottom: 2px solid #1890ff;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+/* Стили для кнопок на страницах */
+button {
+  margin-right: 8px;
+  padding: 5px 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Стили для форм */
+form input,
+form select {
+  padding: 8px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  padding: 8px 16px;
+  background-color: #1890ff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+form button:hover {
+  background-color: #1a77d9;
+}
